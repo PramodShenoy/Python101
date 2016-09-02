@@ -67,7 +67,7 @@ print uname, domain
 
 def ret_tuple(x, y):
     q = x/y
-    r = y/x
+    r = y%x
     return q, r
 
 q1, r1 = ret_tuple(10, 5)
